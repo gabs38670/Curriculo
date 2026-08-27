@@ -40,6 +40,14 @@ main {
     border-radius: 0 0 8px 8px;
 }
 
+header h1 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
 header ul {
     list-style: none;
     display: flex;
@@ -51,9 +59,19 @@ header ul {
 header li {
     color: #64748b;
 }
- 
+
 header li strong {
     color: var(--texto-cor);
+}
+
+header a {
+    text-decoration: none;
+    color: #64748b;
+    transition: 0.3s ease;
+}
+
+header a:hover{
+    color: var(--cor-secundaria);
 }
 
 section {
