@@ -1,6 +1,6 @@
 :root {
-    --primeira-cor: #1e3f9a; /*--primary-color:*/
-    --cor-secundaria: #3b82f6; /*--secondary-color:*/
+    --primeira-cor: #1e3f9a; 
+    --cor-secundaria: #3b82f6;
     --texto-cor: #334155; 
     --bg-color: #f8fafc;
     --card-bg: #ffffff;
@@ -38,4 +38,20 @@ header {
  
 main {
     border-radius: 0 0 8px 8px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+    font-size: 0.95rem;
+}
+ 
+header li {
+    color: #64748b;
+}
+ 
+header li strong {
+    color: var(--texto-cor);
 }
