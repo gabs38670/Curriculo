@@ -55,3 +55,38 @@ header li {
 header li strong {
     color: var(--texto-cor);
 }
+
+section {
+    margin-bottom: 25px;
+}
+ 
+h2 {
+    color: var(--primeira-corr);
+    font-size: 1.2rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+ 
+h3 {
+    color: var(--texto-cor);
+    font-size: 1.05rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+ 
+h4 {
+    color: var(--cor-secundaria);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+ 
+p {
+    font-size: 0.95rem;
+    text-align: justify;
+}
+ 
